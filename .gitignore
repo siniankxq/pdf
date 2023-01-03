@@ -21,3 +21,28 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### IntelliJ IDEA ###
+.idea
+*.jar
+*.iws
+*.iml
+*.ipr
+rebel-remote.xml
+rebel.xml
+### NetBeans ###
+nbproject/private/
+build/*
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+######################################################################
+# Others
+*.xml.versionsBackup
+*.swp
+*.gz
+!*/build/*.java
+!*/build/*.html
+!*/build/*.xml
